@@ -16,7 +16,8 @@ export const navigationHrefs = [
   "https://tincre.com/about",
 ];
 export const cta = "Invest";
-export const logoSrc = undefined;
+export const logoSrc =
+  "https://res.cloudinary.com/tincre/image/upload/v1638892843/tincre.com/tincre-brand-indigo-800_uatfej.svg";
 export const newsletterContent = {
   newsletterTitle: "Subscribe",
   newsletterSubtitle: "Say informed with updates from our blog ",
