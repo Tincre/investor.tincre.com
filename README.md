@@ -8,7 +8,7 @@ A simple **S**ingle **P**age **A**pp for getting Tincre funded. Hit it: [investo
 Built on
 [Next.js](https://nextjs.org), styled with [Tailwindcss](https://tailwindcss.com), and deployed on [Vercel](https://vercel.com).
 
-Development and support provided by [Tincre](https://tincre.com).
+Development and support provided by [Phund, by Tincre](https://phund.xyz).
 
 ## Features
 
