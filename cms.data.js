@@ -290,16 +290,20 @@ export const footerItems = [
     title: "Development",
     footerColumnItems: [
       {
-        text: `About ${entityTitle}`,
-        href: entityUrl,
+        text: `Github`,
+        href: "https://github.com/tincre",
       },
       {
-        text: `Team`,
-        href: "https://tincre.com/about",
+        text: `Phund OSS`,
+        href: "https://github.com/tincre/phund",
       },
       {
-        text: "Brands",
-        href: "https://tincre.com/#our-brands",
+        text: `Pycmc`,
+        href: "https://github.com/musicfox/pycmc",
+      },
+      {
+        text: `And more!`,
+        href: "https://github.com/tincre",
       },
     ],
   },
