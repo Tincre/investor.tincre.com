@@ -266,19 +266,23 @@ export const footerItems = [
     ],
   },
   {
-    title: "Product Categories",
+    title: "Brands",
     footerColumnItems: [
       {
-        text: `About ${entityTitle}`,
-        href: entityUrl,
+        text: `b00st.com`,
+        href: "https://b00st.com",
       },
       {
-        text: `Team`,
-        href: "https://tincre.com/about",
+        text: `Slightly Sharpe`,
+        href: "https://slightlysharpe.com",
       },
       {
-        text: "Brands",
-        href: "https://tincre.com/#our-brands",
+        text: "Tear Sheet Ads (coming)",
+        href: "https://tearsheetads.com",
+      },
+      {
+        text: "Bit Modulus",
+        href: "https://bitmodulus.com",
       },
     ],
   },
