@@ -61,8 +61,7 @@ export const whyInvestContent = {
 export const factCardsContent = [
   {
     title: "We make customers happy.",
-    description:
-      "28% of MAU use our solutions multiple times a month.",
+    description: "28% of MAU use our solutions multiple times a month.",
   },
   {
     title: "We get customers in the door efficiently.",
@@ -86,7 +85,8 @@ export const factCardsContent = [
   },
   {
     title: "We are primed for growth",
-    description: "We have five additional brands ready for release once we close this funding round.",
+    description:
+      "We have five additional brands ready for release once we close this funding round.",
   },
 ];
 export const factSnippetsCardContent = [
@@ -98,18 +98,16 @@ export const factSnippetsCardContent = [
     subTitle: "Impressions delivered",
   },
   {
-    description:
-      "Our click-through rate is twice as good as the U.S. average.",
+    description: "Our click-through rate is twice as good as the U.S. average.",
     imageSrc: "/images/indigo-500-avatar.png",
-    title: "2%,
+    title: "2%",
     subTitle: "Average click-through rate",
   },
   {
-    description:
-      "Our ads produce real clicks at a third of the cost.",
+    description: "Our ads produce real clicks at a third of the cost.",
     imageSrc: "/images/indigo-500-avatar.png",
     title: "$0.09",
-    subTitle: "Average cost-per-click,
+    subTitle: "Average cost-per-click",
   },
   {
     description:
@@ -118,7 +116,7 @@ export const factSnippetsCardContent = [
     title: "5",
     subTitle: "Clicks and done, really",
   },
-    {
+  {
     description:
       "Our ad-fintech solution b00st.com is making noise across the music industry.",
     imageSrc: "/images/indigo-500-avatar.png",
@@ -126,8 +124,7 @@ export const factSnippetsCardContent = [
     subTitle: "Enjoy our users' music each month",
   },
   {
-    description:
-      "b00st revenue ais growing fast.",
+    description: "b00st revenue ais growing fast.",
     imageSrc: "/images/indigo-500-avatar.png",
     title: "77%",
     subTitle: "M/M growth",
@@ -182,9 +179,8 @@ export const fAQCardContent = [
     listItems: [
       { text: "We have been here before.", href: entityUrl },
       { text: "Jason founded and scaled Recondite Capital", href: entityUrl },
-      { text: "Phil founded and sold Philip James Agency, href: entityUrl },
-      { text: "We have been working together since 2006", href: entityUrl},
-      },
+      { text: "Phil founded and sold Philip James Agency", href: entityUrl },
+      { text: "We have been working together since 2006", href: entityUrl },
     ],
   },
   {
@@ -195,7 +191,10 @@ export const fAQCardContent = [
         text: "Introduce our growth engine -- the developer platform",
         href: entityUrl,
       },
-      { text: "Quantify and monetize all interactions across the web", href: entityUrl },
+      {
+        text: "Quantify and monetize all interactions across the web",
+        href: entityUrl,
+      },
       { text: "True financial innovation", href: entityUrl },
     ],
   },
@@ -211,9 +210,18 @@ export const fAQCardContent = [
   {
     title: "What's our exit strategy?",
     listItems: [
-      { text: "Our brands are packaged into sellable assets from the get-go", href: entityUrl },
-      { text: "We believe our core tech is infinitely scalable", href: entityUrl },
-      { text: "As any wise investors, our goal is to create and realize value", href: entityUrl },
+      {
+        text: "Our brands are packaged into sellable assets from the get-go",
+        href: entityUrl,
+      },
+      {
+        text: "We believe our core tech is infinitely scalable",
+        href: entityUrl,
+      },
+      {
+        text: "As any wise investors, our goal is to create and realize value",
+        href: entityUrl,
+      },
       { text: "Quitting is not one of the answers", href: entityUrl },
     ],
   },
