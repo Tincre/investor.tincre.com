@@ -1,9 +1,9 @@
 export const hostname = "investor.tincre.com";
 export const entityTitle = "Tincre";
 export const entityUrl = `https://${hostname}`;
-export const title = `${entityTitle} @ ${entityUrl}`;
+export const title = `${entityTitle} Investor Relations`;
 export const description =
-  "We're raising capital. Don't be the loser; sign your SAFE today before we reject sloth-like operators.";
+  "We are raising capital. Rather than a boring pitch deck, we built automated and scalable software, turning fundraising into a profit center.";
 export const author = `${entityTitle}, ${entityUrl}`;
 export const navigationLinks = [
   `Investing in ${entityTitle}`,
@@ -28,109 +28,106 @@ export const stats1Data = [
   {
     icon: "",
     numberStat: "30,000,000",
-    text: "A giant achievement",
+    text: "People reached via our brands",
   },
   {
     icon: "",
-    numberStat: "$1,000,000",
-    text: "A big sales number",
+    numberStat: "350",
+    text: "Happy customers using our software",
   },
   {
     icon: "",
-    numberStat: "150%",
-    text: "An impressive growth benchmark ",
+    numberStat: "40%",
+    text: "Customer growth Q3 - Q4 ‘21",
   },
   {
     icon: "",
-    numberStat: "15,000",
-    text: "A testament to your firm's popularity",
+    numberStat: "$140,000",
+    text: "ARR as of Jan '22",
   },
 ];
 export const whyInvestContent = {
   subTitle: "Scaling our formula",
-  title: "We're seeking investment to release more kick ass autonomous brands",
+  title: "We're seeking investment to release more kick-ass autonomous brands",
   description:
-    "Our formula for success works and we are scaling it with five to eight more brands this year.",
+    "We build ad-fintech solutions that quantify and monetize interactions across the web, supercharging businesses and creators. Our formula for success works and we are expanding it with five to eight more brands this year.",
   cta: `Learn about investing in ${entityTitle}`,
   whyInvestCardData: [
-    "Scale our efficient traffic-user acquisition of $5-6 per user across other industries.",
+    "Scale our efficient user acquisition cost of $5-7 across other industries.",
     "Solid business fundamentals guided by founders' zero bullshit approach.",
-    "Take part in something vastly cooler than you or your past.",
+    "Take part in something vastly more exciting than burning your cash.",
   ],
 };
 export const factCardsContent = [
   {
-    title: "We make customers happy",
-    description:
-      "Our solution makes a lot of people happy. Don't trust us, Google it.",
+    title: "We make customers happy.",
+    description: "28% of MAU use our solutions multiple times a month.",
   },
   {
-    title: "We are visionaries",
+    title: "We get customers in the door efficiently.",
     description:
-      "Our product and process is superior to anything on the market.",
+      "Our CAC is top-notch. In Jan '22 we spent $6.23 per new user.",
   },
   {
-    title: "Disrupting is what we do",
+    title: "Our users spend money.",
     description:
-      "Our technology levels the playing field and will east the big guy's lunch.",
+      "Our ARPU for Jan '22 was $300 and we are trending up 14% for Feb '22.",
   },
   {
-    title: "The sky is the limit.",
+    title: "We are building organically.",
     description:
-      "Every beginning is difficult but we've validated our position time and again.",
+      "Our MAU grew by 40% fom Q3 to Q4, 2021. Our all-in marketing spend is less than $1,500 per month.",
+  },
+  {
+    title: "Our operating costs are decreasing",
+    description:
+      "We build scalable software with operating costs decreasing, not ballooning",
   },
   {
     title: "We are primed for growth",
     description:
-      "The time to put the pedal to the floor is now. We like to drive fast.",
-  },
-  {
-    title: "Our team is the best",
-    description: "We've combined the best possible talent to get the job done.",
+      "We have five additional brands ready for release once we close this funding round.",
   },
 ];
 export const factSnippetsCardContent = [
   {
     description:
-      "A nice, detailed explanation of something with-respect-to this funding rounding.",
+      "We run programmatic advertising through the biggest providers, including Google and Facebook.",
     imageSrc: "/images/indigo-500-avatar.png",
-    title: "A Product KPI",
-    subTitle: "Performance category",
+    title: "50M",
+    subTitle: "Impressions delivered",
+  },
+  {
+    description: "Our click-through rate is twice as good as the U.S. average.",
+    imageSrc: "/images/indigo-500-avatar.png",
+    title: "2%",
+    subTitle: "Average click-through rate",
+  },
+  {
+    description: "Our ads produce real clicks at a third of the cost.",
+    imageSrc: "/images/indigo-500-avatar.png",
+    title: "$0.09",
+    subTitle: "Average cost-per-click",
   },
   {
     description:
-      "A nice, detailed explanation of something with-respect-to this funding rounding.",
+      "One minute is all it takes to launch a full cross-platform optimized advertising campaign ",
     imageSrc: "/images/indigo-500-avatar.png",
-    title: "A Product KPI",
-    subTitle: "Performance category",
+    title: "5",
+    subTitle: "Clicks and done, really",
   },
   {
     description:
-      "A nice, detailed explanation of something with-respect-to this funding rounding.",
+      "Our ad-fintech solution b00st.com is making noise across the music industry.",
     imageSrc: "/images/indigo-500-avatar.png",
-    title: "A Product KPI",
-    subTitle: "Performance category",
+    title: "100M+ listeners",
+    subTitle: "Enjoy our users' music each month",
   },
   {
-    description:
-      "A nice, detailed explanation of something with-respect-to this funding rounding.",
+    description: "b00st revenue ais growing fast.",
     imageSrc: "/images/indigo-500-avatar.png",
-    title: "A Product KPI",
-    subTitle: "Performance category",
-  },
-  {
-    description:
-      "A nice, detailed explanation of something with-respect-to this funding rounding.",
-    imageSrc: "/images/indigo-500-avatar.png",
-    title: "A Product KPI",
-    subTitle: "Performance category",
-  },
-  {
-    description:
-      "A nice, detailed explanation of something with-respect-to this funding rounding.",
-    imageSrc: "/images/indigo-500-avatar.png",
-    title: "A Product KPI",
-    subTitle: "Performance category",
+    title: "77%",
+    subTitle: "M/M growth",
   },
 ];
 export const teamCardContent = [
@@ -162,60 +159,69 @@ export const fAQCardContent = [
   {
     title: "How much are we raising?",
     listItems: [
-      { text: "We are looking to raise a lot", href: entityUrl },
-      { text: "And made it easy for you to give us money", href: entityUrl },
-      { text: "The terms are straightforward", href: entityUrl },
-      { text: "And there's a special kicker for you", href: entityUrl },
+      { text: "We are raising up to $500K", href: entityUrl },
+      { text: "Minimum $50K per investor", href: entityUrl },
+      { text: "Via SAFE Note", href: entityUrl },
+      { text: "9MM Post-Money Valuation Cap", href: entityUrl },
     ],
   },
   {
     title: "How will we use the funds?",
     listItems: [
-      { text: "Our office needs vending machines", href: entityUrl },
-      { text: "To make all of our new employees happy", href: entityUrl },
-      { text: "There also needs to be a slush fund", href: entityUrl },
-      { text: "To market and sell out our office parties", href: entityUrl },
+      { text: "40% to expand the team", href: entityUrl },
+      { text: "30% to market our new brands", href: entityUrl },
+      { text: "25% to develop new features", href: entityUrl },
+      { text: "5% to market our released brands ", href: entityUrl },
     ],
   },
   {
     title: "Why are we the right team?",
     listItems: [
-      { text: "Lucy went to university and studied hard", href: entityUrl },
-      { text: "Johnny built a business and sold it fast", href: entityUrl },
-      { text: "Lauren learned how to code and build an app", href: entityUrl },
-      {
-        text: "Thomas has people skills and interned at Initech",
-        href: entityUrl,
-      },
+      { text: "We have been here before.", href: entityUrl },
+      { text: "Jason founded and scaled Recondite Capital", href: entityUrl },
+      { text: "Phil founded and sold Philip James Agency", href: entityUrl },
+      { text: "We have been working together since 2006", href: entityUrl },
     ],
   },
   {
     title: "What is our plan for the future? ",
     listItems: [
-      { text: "No crystal ball needed", href: entityUrl },
+      { text: "Release additional product brands", href: entityUrl },
       {
-        text: "We got a solid plan to put your money to work",
+        text: "Introduce our growth engine -- the developer platform",
         href: entityUrl,
       },
-      { text: "Our people will execute with lazer focus", href: entityUrl },
-      { text: "To grow the company", href: entityUrl },
+      {
+        text: "Quantify and monetize all interactions across the web",
+        href: entityUrl,
+      },
+      { text: "True financial innovation", href: entityUrl },
     ],
   },
   {
     title: "What do investors get?",
     listItems: [
-      { text: "A nice pat on the back", href: entityUrl },
-      { text: "Followed by five high fives", href: entityUrl },
-      { text: "A quarterly report directly to their Kindle", href: entityUrl },
-      { text: "And a seat at the big kids table", href: entityUrl },
+      { text: "A seat at table", href: entityUrl },
+      { text: "Join an awesome investor family", href: entityUrl },
+      { text: "Work with the best founding team", href: entityUrl },
+      { text: "Our network becomes your network", href: entityUrl },
     ],
   },
   {
     title: "What's our exit strategy?",
     listItems: [
-      { text: "Build and go public", href: entityUrl },
-      { text: "Sell to the highest bidder", href: entityUrl },
-      { text: "Go big or go home", href: entityUrl },
+      {
+        text: "Our brands are packaged into sellable assets from the get-go",
+        href: entityUrl,
+      },
+      {
+        text: "We believe our core tech is infinitely scalable",
+        href: entityUrl,
+      },
+      {
+        text: "As any wise investors, our goal is to create and realize value",
+        href: entityUrl,
+      },
       { text: "Quitting is not one of the answers", href: entityUrl },
     ],
   },
@@ -260,19 +266,23 @@ export const footerItems = [
     ],
   },
   {
-    title: "Product Categories",
+    title: "Brands",
     footerColumnItems: [
       {
-        text: `About ${entityTitle}`,
-        href: entityUrl,
+        text: `b00st.com`,
+        href: "https://b00st.com",
       },
       {
-        text: `Team`,
-        href: "https://tincre.com/about",
+        text: `Slightly Sharpe`,
+        href: "https://slightlysharpe.com",
       },
       {
-        text: "Brands",
-        href: "https://tincre.com/#our-brands",
+        text: "Tear Sheet Ads (coming)",
+        href: "https://tearsheetads.com",
+      },
+      {
+        text: "Bit Modulus",
+        href: "https://bitmodulus.com",
       },
     ],
   },
@@ -280,16 +290,20 @@ export const footerItems = [
     title: "Development",
     footerColumnItems: [
       {
-        text: `About ${entityTitle}`,
-        href: entityUrl,
+        text: `Github`,
+        href: "https://github.com/tincre",
       },
       {
-        text: `Team`,
-        href: "https://tincre.com/about",
+        text: `Phund OSS`,
+        href: "https://github.com/tincre/phund",
       },
       {
-        text: "Brands",
-        href: "https://tincre.com/#our-brands",
+        text: `Pycmc`,
+        href: "https://github.com/musicfox/pycmc",
+      },
+      {
+        text: `And more!`,
+        href: "https://github.com/tincre",
       },
     ],
   },
@@ -310,7 +324,7 @@ export const socials = [
 ];
 export const factSnippetsContent = {
   title:
-    "Learn about the most awesome company on the floating rock we all call earth",
+    "Learn about the most awesome new tech startup whose roadmap includes developed products, not just bold ideas",
   subTitle: "Growing Growth",
   description: `We're so performant that diversification is just an added cost to you and your portfolio. Displace underperforming assets by writing them down, collecting your tax loss, and reinvesting those proceeds into ${entityTitle}.`,
   cta1: "Invest now",
@@ -320,7 +334,7 @@ export const teamContent = {
   title: "Superior people build superior businesses",
   subTitle: "Better People",
   description:
-    "Your investments in half-drunk HYP school morons haven't worked out consistently. So change the pace and stop wasting your resources. Invest in the actual top of the class.",
+    "Change the pace and stop wasting your resources. Invest in the actual top of the class, a management team with a proven track record and an eye on the bottom line.",
 };
 export const infoBlockContent = {
   title: "One investment to rule them all.",
