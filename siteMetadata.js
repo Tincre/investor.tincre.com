@@ -9,28 +9,28 @@ export const defaultSeoContent = {
     locale: "en_IE",
     url: entityUrl,
     site_name: author,
+    images: [
+      {
+        url: logoSrc,
+        width: 800,
+        height: 600,
+        alt: author,
+        type: "image/jpeg",
+      },
+      {
+        url: logoSrc,
+        width: 900,
+        height: 800,
+        alt: author,
+        type: "image/jpeg",
+      },
+    ],
   },
   twitter: {
     handle: "@handle",
     site: "@site",
     cardType: "summary_large_image",
   },
-  images: [
-    {
-      url: logoSrc,
-      width: 800,
-      height: 600,
-      alt: author,
-      type: "image/jpeg",
-    },
-    {
-      url: logoSrc,
-      width: 900,
-      height: 800,
-      alt: author,
-      type: "image/jpeg",
-    },
-  ],
 };
 
 export const routeSeoContent = {
