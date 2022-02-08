@@ -43,6 +43,7 @@ model Account {
 
 model Session {
   id           String   @id @default(cuid())
+  createdAt    DateTime @default(now()) @db.Timestamptz(6)
   sessionToken String   @unique
   userId       String
   expires      DateTime
