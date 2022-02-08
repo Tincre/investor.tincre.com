@@ -3,7 +3,7 @@
 <a href="https://investor.tincre.com" style="text-align:center;" target="_blank">
 <img alt="Tincre Corporate Logo" src="https://res.cloudinary.com/tincre/image/upload/v1638892843/tincre.com/tincre-brand-indigo-800_uatfej.svg" /></a>
 
-A simple **S**ingle **P**age **A**pp for getting Tincre funded. Hit it: [investors.tincre.com](https://investors.tincre.com).
+A simple **S**ingle **P**age **A**pp for getting Tincre funded. Hit it: [investor.tincre.com](https://investor.tincre.com).
 
 Built on
 [Next.js](https://nextjs.org), styled with [Tailwindcss](https://tailwindcss.com), and deployed on [Vercel](https://vercel.com).
@@ -36,7 +36,7 @@ CHECKPOINT_DISABLE=1
 SIGNING_PASSPHRASE="<a-generated-passphrase>"
 NEXTAUTH_SECRET="<a-generated-passphrase>"
 EMAIL_SERVER="smtp://<your-email-smtp-info>"
-FROM_EMAIL="investors@tincre.com"
+FROM_EMAIL="investor@tincre.com"
 NEXTAUTH_URL=http://localhost:3000
 CONVERTKIT_API_URL=https://api.convertkit.com/v3/
 CONVERTKIT_API_KEY=<your-api-key>
