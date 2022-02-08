@@ -35,12 +35,29 @@ SHADOW_DATABASE_URL="postgresql://<your-shadow-connection-info"
 CHECKPOINT_DISABLE=1
 SIGNING_PASSPHRASE="<a-generated-passphrase>"
 NEXTAUTH_SECRET="<a-generated-passphrase>"
+EMAIL_API_KEY="<SG.your-sendgrid-key>"
 EMAIL_SERVER="smtp://<your-email-smtp-info>"
 FROM_EMAIL="investor@tincre.com"
 NEXTAUTH_URL=http://localhost:3000
 CONVERTKIT_API_URL=https://api.convertkit.com/v3/
 CONVERTKIT_API_KEY=<your-api-key>
 CONVERTKIT_FORM_ID=<your-form-id>
+SAFE_TYPE='Cap' # One of: 'Cap', 'MFN', 'Discount'
+```
+
+##### Generating secrets
+
+Tincre developers have a custom Python command within their development 
+evironments that calls:
+
+```bash 
+python -c "import secrets; print(secrets.token_hex(64))"
+```
+
+or use `openssl`, which is probably present in your environment: 
+
+```bash 
+openssl rand -hex 64
 ```
 
 ### Tests
