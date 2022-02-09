@@ -113,7 +113,7 @@ export const factSnippetsCardContent = [
     subTitle: "Ads with 1 button press",
   },
   {
-    description: "We  make noise across the music industry.",
+    description: "We make noise across the music industry.",
     imageSrc: "/images/indigo-500-avatar.png",
     title: "25M+",
     subTitle: "Listeners saw our ads in '21",
@@ -138,7 +138,7 @@ export const teamCardContent = [
     name: "Jason R. Stevens, CFA",
     position: "CTO+CFO, Co-Founder",
     description:
-      "Anti-script kiddie crushing the keys to build an entirely new world in which he owns all human-associated items.",
+      "Anti-script kiddie crushing the keys to build an entirely new automated world in which high-frequency quantitative valuation drives and improves decision making everywhere.",
     imageSrc: "/team/jason.webp",
     imageAlt: "Jason R. Stevens, CFA",
   },
@@ -154,52 +154,58 @@ export const fAQCardContent = [
   {
     title: "How do we make money?",
     listItems: [
-      { text: "Our ad-fintech brands", href: entityUrl },
-      { text: "Our developer platform", href: entityUrl },
-      { text: "Our open-source software", href: entityUrl },
-      { text: "A link to our financials", href: entityUrl },
+      { text: "Our ad-fintech brands", href: "https://b00st.com" },
+      { text: "Our developer platform", href: "https://bitmodulus.com" },
+      { text: "Our open-source software", href: "https://github.com/tincre" },
+      {
+        text: "A link to our financials",
+        href: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0bHXtJKj19YtTvoYZZkVgbL9uHPpm9BJGCQ0VAqj0honwISElEvVArbwgnKPoSeTzz1_1QKQ6i-d0/pubhtml",
+      },
     ],
   },
   {
     title: "Why are we raising?",
     listItems: [
-      { text: "To release more brands", href: entityUrl },
-      { text: "To market the new stuff", href: entityUrl },
-      { text: "To dogfood a new product", href: entityUrl },
-      { text: "To find better people", href: entityUrl },
+      { text: "To release more brands", href: "https://tincre.com" },
+      { text: "To market the new stuff", href: "https://tearsheetads.com" },
+      { text: "To dogfood a new product", href: "https://example.phund.xyz" },
+      { text: "To hire the best people", href: "https://tincre.com/about" },
     ],
   },
   {
     title: "What are the details?",
     listItems: [
-      { text: "Pre-seed up to $1.25M", href: entityUrl },
-      { text: "SAFE note, min $50K", href: entityUrl },
-      { text: "Accredited investors", href: entityUrl },
-      { text: "No crypto bros here", href: entityUrl },
+      { text: "Pre-seed up to $1.25M", href: "#safe-terms" },
+      { text: "SAFE note, min $50K", href: "#safe-terms" },
+      { text: "Accredited investors", href: "#safe-terms" },
+      { text: "No crypto bros here", href: "#safe-terms" },
     ],
   },
   {
-    title: "Who else is involved?",
+    title: "Our caravan includes",
     listItems: [
-      { text: "Our amazing customers", href: entityUrl },
+      { text: "Our amazing customers", href: "https://b00st.com" },
       {
         text: "Our killer core team",
-        href: entityUrl,
+        href: "#team",
       },
       {
-        text: "Our select investors",
-        href: entityUrl,
+        text: "Institutional investors",
+        href: "https://tincre.com/about",
       },
-      { text: "Our high-octane advisors", href: entityUrl },
+      { text: "Our high-octane advisors", href: "https://tincre.com/about" },
     ],
   },
   {
     title: "Why participate now?",
     listItems: [
-      { text: "You understand software", href: entityUrl },
-      { text: "You like to get in early", href: entityUrl },
-      { text: "Complex problems excite you", href: entityUrl },
-      { text: "Products and processes matter", href: entityUrl },
+      { text: "You understand software", href: "https://bitmodulus.com" },
+      { text: "You like to get in early", href: "https://tincre.com/" },
+      { text: "Complex problems excite you", href: "https://tincre.com" },
+      {
+        text: "Products and processes matter",
+        href: "https://slightlysharpe.com/blog/adaptation-and-retrofitting",
+      },
     ],
   },
   {
@@ -207,17 +213,16 @@ export const fAQCardContent = [
     listItems: [
       {
         text: "Solve the web's last mile",
-        href: entityUrl,
+        href: "https://slightlysharpe.com/blog/the-webs-last-mile",
       },
       {
-        text: "Our brands become sellable",
-        href: entityUrl,
+        text: "Build our brands as corporate assets",
+        href: "https://slightlysharpe.com/blog/dogfooding-iteration",
       },
       {
-        text: "Our core tech lives on",
-        href: entityUrl,
+        text: "Better online business for all",
+        href: "https://slightlysharpe.com/blog/introducing-tincre",
       },
-      { text: "Piña coladas for everyone", href: entityUrl },
     ],
   },
 ];
@@ -253,6 +258,10 @@ export const footerItems = [
       {
         text: `Dogfooding Iteration`,
         href: "https://slightlysharpe.com/blog/dogfooding-iteration",
+      },
+      {
+        text: `Where We've Been`,
+        href: "https://slightlysharpe.com/blog/adaptation-and-retrofitting",
       },
       {
         text: "Tincre - Introduction",
