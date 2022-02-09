@@ -1,4 +1,4 @@
-export const hostname = "investor.tincre.com";
+export const hostname = "investor.tincre.com;"
 export const entityTitle = "Tincre";
 export const entityUrl = `https://${hostname}`;
 export const title = `${entityTitle} Investor Relations`;
@@ -16,7 +16,7 @@ export const navigationHrefs = [
   "https://tincre.com/about",
 ];
 export const cta = "Invest";
-export const logoSrc =
+export const logoSrc=
   "https://res.cloudinary.com/tincre/image/upload/v1638892843/tincre.com/tincre-brand-indigo-800_uatfej.svg";
 export const newsletterContent = {
   newsletterTitle: "Subscribe",
@@ -28,29 +28,29 @@ export const stats1Data = [
   {
     icon: "",
     numberStat: "30,000,000",
-    text: "People reached via our brands",
+    text: "People reached",
   },
   {
     icon: "",
     numberStat: "350",
-    text: "Happy customers using our software",
+    text: "Happy customers",
   },
   {
     icon: "",
     numberStat: "40%",
-    text: "Customer growth Q3 - Q4 ‘21",
+    text: "Growth Q3-Q4 ‘21",
   },
   {
     icon: "",
     numberStat: "$140,000",
-    text: "ARR as of Jan '22",
+    text: "ARR Jan '22",
   },
 ];
 export const whyInvestContent = {
   subTitle: "Scaling our formula",
-  title: "We're seeking investment to release more kick-ass autonomous brands",
+  title: "We're seeking investment to release more kick-ass brands",
   description:
-    "We build ad-fintech solutions that quantify and monetize interactions across the web, supercharging businesses and creators. Our formula for success works and we are expanding it with five to eight more brands this year.",
+    "Our autonomous ad-fintech solutions supercharge businesses and creators by quantifying and monetizing interactions across the web. We have a formula for success that works and are looking to introduce five to eight additional brands this year.",
   cta: `Learn about investing in ${entityTitle}`,
   whyInvestCardData: [
     "Scale our efficient user acquisition cost of $5-7 across other industries.",
@@ -64,67 +64,66 @@ export const factCardsContent = [
     description: "28% of MAU use our solutions multiple times a month.",
   },
   {
-    title: "We get customers in the door efficiently.",
-    description:
-      "Our CAC is top-notch. In Jan '22 we spent $6.23 per new user.",
+    title: "We convert customers.",
+    description: "Our CAC is top-notch. We spend $5-7 per new  user.",
   },
   {
     title: "Our users spend money.",
     description:
-      "Our ARPU for Jan '22 was $300 and we are trending up 14% for Feb '22.",
+      "At $300, our monthly ARPU rivals major B2B SaaS platforms.",
+  },
+  { 
+    title: "We are building right.",
+    description:
+      "Our usage grew by 42% from Q3 to Q4 '21 without upping marketing.",
   },
   {
-    title: "We are building organically.",
+    title: "We keep costs low.",
     description:
-      "Our MAU grew by 40% fom Q3 to Q4, 2021. Our all-in marketing spend is less than $1,500 per month.",
+      "Our net profit margin is north of 10% and our tech is scalable.",
   },
   {
-    title: "Our operating costs are decreasing",
+    title: "Primed for growth.",
     description:
-      "We build scalable software with operating costs decreasing, not ballooning",
-  },
-  {
-    title: "We are primed for growth",
-    description:
-      "We have five additional brands ready for release once we close this funding round.",
+      "We have five additional brands developed for release in 2022.",
   },
 ];
 export const factSnippetsCardContent = [
   {
     description:
-      "We run programmatic advertising through the biggest providers, including Google and Facebook.",
+      "Programmatic ads through the biggest providers.",
     imageSrc: "/images/indigo-500-avatar.png",
     title: "50M",
     subTitle: "Impressions delivered",
   },
   {
-    description: "Our click-through rate is twice as good as the U.S. average.",
+    description: "Click-through rates 2X the U.S. average.",
     imageSrc: "/images/indigo-500-avatar.png",
     title: "2%",
-    subTitle: "Average click-through rate",
+    subTitle: "Avg. click-through rate",
   },
   {
-    description: "Our ads produce real clicks at a third of the cost.",
+    description: "Real clicks at a third of the cost.",
     imageSrc: "/images/indigo-500-avatar.png",
     title: "$0.09",
-    subTitle: "Average cost-per-click",
+    subTitle: "Avg. cost-per-click",
   },
   {
     description:
-      "One minute is all it takes to launch a full cross-platform optimized advertising campaign ",
+      "Simplest and most powerful solution out there.",
     imageSrc: "/images/indigo-500-avatar.png",
-    title: "5",
-    subTitle: "Clicks and done, really",
+    title: "100",
+    subTitle: "Ads with 1 button press",
   },
   {
     description:
-      "Our ad-fintech solution b00st.com is making noise across the music industry.",
+      "We  make noise across the music industry.",
     imageSrc: "/images/indigo-500-avatar.png",
-    title: "100M+ listeners",
-    subTitle: "Enjoy our users' music each month",
+    title: "25M+",
+    subTitle: "Listeners saw our ads in '21",
   },
   {
-    description: "b00st revenue ais growing fast.",
+    description: "Our music brand is used by all major players.",
     imageSrc: "/images/indigo-500-avatar.png",
     title: "77%",
     subTitle: "M/M growth",
@@ -157,72 +156,72 @@ export const teamCardContent = [
 ];
 export const fAQCardContent = [
   {
-    title: "How much are we raising?",
+    title: "How do we make money?",
     listItems: [
-      { text: "We are raising up to $500K", href: entityUrl },
-      { text: "Minimum $50K per investor", href: entityUrl },
-      { text: "Via SAFE Note", href: entityUrl },
-      { text: "9MM Post-Money Valuation Cap", href: entityUrl },
+      { text: "Our ad-fintech brands", href: entityUrl },
+      { text: "Our developer platform", href: entityUrl },
+      { text: "Our open-source software", href: entityUrl },
+      { text: "A link to our financials", href: entityUrl },
     ],
   },
   {
-    title: "How will we use the funds?",
+    title: "Why are we raising?",
     listItems: [
-      { text: "40% to expand the team", href: entityUrl },
-      { text: "30% to market our new brands", href: entityUrl },
-      { text: "25% to develop new features", href: entityUrl },
-      { text: "5% to market our released brands ", href: entityUrl },
+      { text: "To release more brands", href: entityUrl },
+      { text: "To market the new stuff", href: entityUrl },
+      { text: "To dogfood a new product", href: entityUrl },
+      { text: "To find better people", href: entityUrl },
     ],
   },
   {
-    title: "Why are we the right team?",
+    title: "What are the details?",
     listItems: [
-      { text: "We have been here before.", href: entityUrl },
-      { text: "Jason founded and scaled Recondite Capital", href: entityUrl },
-      { text: "Phil founded and sold Philip James Agency", href: entityUrl },
-      { text: "We have been working together since 2006", href: entityUrl },
+      { text: "Pre-seed up to $1.25M", href: entityUrl },
+      { text: "SAFE note, min $50K", href: entityUrl },
+      { text: "Accredited investors", href: entityUrl },
+      { text: "No crypto bros here", href: entityUrl },
     ],
   },
   {
-    title: "What is our plan for the future? ",
+    title: "Who else is involved?",
     listItems: [
-      { text: "Release additional product brands", href: entityUrl },
+      { text: "Our amazing customers", href: entityUrl },
       {
-        text: "Introduce our growth engine -- the developer platform",
+        text: "Our killer core team",
         href: entityUrl,
       },
       {
-        text: "Quantify and monetize all interactions across the web",
+        text: "Our select investors",
         href: entityUrl,
       },
-      { text: "True financial innovation", href: entityUrl },
+      { text: "Our high-octane advisors", href: entityUrl },
     ],
   },
   {
-    title: "What do investors get?",
+    title: "Why participate now?",
     listItems: [
-      { text: "A seat at table", href: entityUrl },
-      { text: "Join an awesome investor family", href: entityUrl },
-      { text: "Work with the best founding team", href: entityUrl },
-      { text: "Our network becomes your network", href: entityUrl },
+      { text: "You understand software", href: entityUrl },
+      { text: "You like to get in early", href: entityUrl },
+      { text: "Complex problems excite you", href: entityUrl },
+      { text: "Products and processes matter", href: entityUrl },
     ],
   },
   {
-    title: "What's our exit strategy?",
+    title: "What's our goal?",
     listItems: [
       {
-        text: "Our brands are packaged into sellable assets from the get-go",
+        text: "Solve the web's last mile",
         href: entityUrl,
       },
       {
-        text: "We believe our core tech is infinitely scalable",
+        text: "Our brands become sellable",
         href: entityUrl,
       },
       {
-        text: "As any wise investors, our goal is to create and realize value",
+        text: "Our core tech lives on",
         href: entityUrl,
       },
-      { text: "Quitting is not one of the answers", href: entityUrl },
+      { text: "Piña coladas for everyone", href: entityUrl },
     ],
   },
 ];
@@ -324,7 +323,7 @@ export const socials = [
 ];
 export const factSnippetsContent = {
   title:
-    "Learn about the most awesome new tech startup whose roadmap includes developed products, not just bold ideas",
+    "Learn about a tech startup whose roadmap includes developed products, not just bold ideas",
   subTitle: "Growing Growth",
   description: `We're so performant that diversification is just an added cost to you and your portfolio. Displace underperforming assets by writing them down, collecting your tax loss, and reinvesting those proceeds into ${entityTitle}.`,
   cta1: "Invest now",
@@ -340,7 +339,7 @@ export const infoBlockContent = {
   title: "One investment to rule them all.",
   description:
     "Don't miss this opportunity to clean up your horrific past performance and log a win in your P&L. Plus, all your friends will just love doing the same. A win win, by any measure.",
-  cta: `Do one good thing before you croak: invest in ${entityTitle}`,
+  cta: `Do the right thing: invest in ${entityTitle}`,
   ctaHref: "#invest",
 };
 export const safeTermsContent = {
