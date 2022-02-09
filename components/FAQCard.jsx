@@ -26,6 +26,8 @@ export default function FAQCard({ title, listItems }) {
               <a
                 className="text-gray-600 hover:underline hover:font-bold"
                 href={href}
+                rel="noreferrer"
+                target="_blank"
               >
                 {text}
               </a>
