@@ -1,4 +1,4 @@
-export const hostname = "investor.tincre.com;"
+export const hostname = "investor.tincre.com;";
 export const entityTitle = "Tincre";
 export const entityUrl = `https://${hostname}`;
 export const title = `${entityTitle} Investor Relations`;
@@ -16,7 +16,7 @@ export const navigationHrefs = [
   "https://tincre.com/about",
 ];
 export const cta = "Invest";
-export const logoSrc=
+export const logoSrc =
   "https://res.cloudinary.com/tincre/image/upload/v1638892843/tincre.com/tincre-brand-indigo-800_uatfej.svg";
 export const newsletterContent = {
   newsletterTitle: "Subscribe",
@@ -69,10 +69,9 @@ export const factCardsContent = [
   },
   {
     title: "Our users spend money.",
-    description:
-      "At $300, our monthly ARPU rivals major B2B SaaS platforms.",
+    description: "At $300, our monthly ARPU rivals major B2B SaaS platforms.",
   },
-  { 
+  {
     title: "We are building right.",
     description:
       "Our usage grew by 42% from Q3 to Q4 '21 without upping marketing.",
@@ -90,8 +89,7 @@ export const factCardsContent = [
 ];
 export const factSnippetsCardContent = [
   {
-    description:
-      "Programmatic ads through the biggest providers.",
+    description: "Programmatic ads through the biggest providers.",
     imageSrc: "/images/indigo-500-avatar.png",
     title: "50M",
     subTitle: "Impressions delivered",
@@ -109,15 +107,13 @@ export const factSnippetsCardContent = [
     subTitle: "Avg. cost-per-click",
   },
   {
-    description:
-      "Simplest and most powerful solution out there.",
+    description: "Simplest and most powerful solution out there.",
     imageSrc: "/images/indigo-500-avatar.png",
     title: "100",
     subTitle: "Ads with 1 button press",
   },
   {
-    description:
-      "We  make noise across the music industry.",
+    description: "We  make noise across the music industry.",
     imageSrc: "/images/indigo-500-avatar.png",
     title: "25M+",
     subTitle: "Listeners saw our ads in '21",
@@ -248,19 +244,19 @@ export const footerItems = [
     ],
   },
   {
-    title: "Legal",
+    title: "Our Story",
     footerColumnItems: [
       {
-        text: `About ${entityTitle}`,
-        href: entityUrl,
+        text: `The Web's Last Mile`,
+        href: "https://slightlysharpe.com/blog/the-webs-last-mile",
       },
       {
-        text: `Team`,
-        href: "https://tincre.com/about",
+        text: `Dogfooding Iteration`,
+        href: "https://slightlysharpe.com/blog/dogfooding-iteration",
       },
       {
-        text: "Brands",
-        href: "https://tincre.com/#our-brands",
+        text: "Tincre - Introduction",
+        href: "https://slightlysharpe.com/blog/introducing-tincre",
       },
     ],
   },
@@ -327,7 +323,7 @@ export const factSnippetsContent = {
   subTitle: "Growing Growth",
   description: `We're so performant that diversification is just an added cost to you and your portfolio. Displace underperforming assets by writing them down, collecting your tax loss, and reinvesting those proceeds into ${entityTitle}.`,
   cta1: "Invest now",
-  cta1Href: "#invest",
+  cta1Href: "#safe-terms",
 };
 export const teamContent = {
   title: "Superior people build superior businesses",
@@ -340,28 +336,18 @@ export const infoBlockContent = {
   description:
     "Don't miss this opportunity to clean up your horrific past performance and log a win in your P&L. Plus, all your friends will just love doing the same. A win win, by any measure.",
   cta: `Do the right thing: invest in ${entityTitle}`,
-  ctaHref: "#invest",
+  ctaHref: "#safe-terms",
 };
 export const safeTermsContent = {
   title: "Offering Details",
   subTitle: "Y-Combinator SAFE",
   description:
-    "We use the standard Y-Combinator SAFE note and offer all three versions for your convenience. The below are priced to our optimality but present to add choice for your investment and portfolio requirements.",
+    "We use the standard Y-Combinator SAFE note with a simple cap to keep you protected from dilution and us protected from legal complexity and expense.",
   safeNoteContent: [
     {
       safeTitle: "Cap",
       href: "",
       description: '"Standard", valuation cap only.',
-    },
-    {
-      safeTitle: "Discount",
-      href: "",
-      description: "Discount applies at conversion during the Liquidity Event.",
-    },
-    {
-      safeTitle: "MFN",
-      href: "",
-      description: "No cap and no discount with MFN provision.",
     },
   ],
   cta: "Learn more about our business.",
