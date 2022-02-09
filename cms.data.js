@@ -232,7 +232,7 @@ export const footerItems = [
     footerColumnItems: [
       {
         text: `About ${entityTitle}`,
-        href: entityUrl,
+        href: "https://tincre.com",
       },
       {
         text: `Team`,
