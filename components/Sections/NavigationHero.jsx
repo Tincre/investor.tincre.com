@@ -28,8 +28,8 @@ export default function NavigationHero({
         <Hero
           heading="We're a different kind of online business."
           subHeading="We create value across the web via financially performant semi-autonomous brands centered around core technology."
-          cta1="Learn about our raise"
-          cta2="Sign in or up"
+          cta="Learn about our raise"
+          ctaHref="#why-invest"
           imageSrc={logoSrc}
           session={session}
         />
