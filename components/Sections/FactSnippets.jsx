@@ -34,7 +34,7 @@ export default function FactSnippets({
                   <a href={`#${index}-fact-card`}>
                     <div
                       id={`${index}-fact-snippet-card`}
-                      className="bg-gray-50 hover:bg-indigo-800 p-6 md:h-72 rounded-lg group-hover:ease-in ease-out duration-300"
+                      className="bg-gray-50 group-hover:bg-indigo-800 p-6 md:h-72 rounded-lg group-hover:ease-in ease-out duration-300"
                     >
                       <p className="mb-8 text-base leading-relaxed lg:text-xl lg:leading-relaxed text-gray-500 group-hover:text-indigo-50 transition group-hover:ease-in ease-out duration-700">
                         {description}
