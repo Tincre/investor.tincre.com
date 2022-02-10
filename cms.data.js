@@ -50,7 +50,7 @@ export const whyInvestContent = {
   subTitle: "Scaling our formula",
   title: "We're seeking investment to release more kick-ass brands",
   description:
-    "Our autonomous ad-fintech solutions supercharge businesses and creators by quantifying and monetizing interactions across the web. We have a formula for success that works and are looking to introduce five to eight additional brands this year.",
+    "Our autonomous ad-fintech brands supercharge businesses and creators by quantifying and monetizing interactions across the web. We have a formula for success that works and are looking to introduce five to eight additional brands this year.",
   cta: `Learn about investing in ${entityTitle}`,
   whyInvestCardData: [
     "Scale our efficient user acquisition cost of $5-7 across other industries.",
@@ -330,7 +330,7 @@ export const factSnippetsContent = {
   title:
     "Learn about a tech startup whose roadmap includes developed products, not just bold ideas",
   subTitle: "Growing Growth",
-  description: `We're so performant that diversification is just an added cost to you and your portfolio. Displace underperforming assets by writing them down, collecting your tax loss, and reinvesting those proceeds into ${entityTitle}.`,
+  description: `Displace underperforming assets by writing them down, collecting your tax loss, and reinvesting those proceeds into ${entityTitle}.`,
   cta1: "Invest now",
   cta1Href: "#safe-terms",
 };
@@ -343,8 +343,8 @@ export const teamContent = {
 export const infoBlockContent = {
   title: "One investment to rule them all.",
   description:
-    "Don't miss this opportunity to clean up your horrific past performance and log a win in your P&L. Plus, all your friends will just love doing the same. A win win, by any measure.",
-  cta: `Do the right thing: invest in ${entityTitle}`,
+    "Don't miss this opportunity to clean up your horrific past performance and log a win. Plus, all your friends will just love doing the same. A win win, by any measure.",
+  cta: `Invest in ${entityTitle} now`,
   ctaHref: "#safe-terms",
 };
 export const safeTermsContent = {
