@@ -138,7 +138,7 @@ export const teamCardContent = [
     name: "Jason R. Stevens, CFA",
     position: "CTO+CFO, Co-Founder",
     description:
-      "Anti-script kiddie crushing the keys to build an entirely new automated world in which high-frequency quantitative valuation drives and improves decision making everywhere.",
+      "Crushing the keys to build an entirely new automated world in which high-frequency quantitative valuation drives and improves decision making everywhere.",
     imageSrc: "/team/jason.webp",
     imageAlt: "Jason R. Stevens, CFA",
   },
