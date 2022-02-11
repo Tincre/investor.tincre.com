@@ -84,8 +84,22 @@ export const stats1Data = [
 export const whyInvestContent = {
   subTitle: "Scaling our formula",
   title: "We're seeking investment to release more kick-ass brands",
-  description:
-    "Our autonomous ad-fintech brands supercharge businesses and creators by quantifying and monetizing interactions across the web. We have a formula for success that works and are looking to introduce five to eight additional brands this year.",
+  description: (
+    <>
+      <div className="mb-4">
+        Our autonomous ad-fintech brands supercharge businesses and creators by
+        quantifying and monetizing interactions across the web.
+      </div>
+      <div>
+        {" "}
+        We have a formula for success that{" "}
+        <a href="#stats">
+          <span className="italic">works</span>
+        </a>
+        .
+      </div>
+    </>
+  ),
   cta: `Learn about investing in ${entityTitle}`,
   whyInvestCardData: [
     "Scale our efficient user acquisition cost of $5-7 across other industries.",
