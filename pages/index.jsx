@@ -114,7 +114,7 @@ export default function Funded() {
   }, [data, error]);
 
   return (
-    <div>
+    <div className="select-none">
       <Head>
         <title>{title}</title>
         <meta charSet="utf-8" />
