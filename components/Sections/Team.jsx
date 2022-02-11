@@ -1,7 +1,7 @@
 function TeamCard({ name, position, description, imageSrc, imageAlt }) {
   return (
-    <div className="w-full lg:w-1/2 p-4">
-      <div className="bg-gray-50 p-6 rounded md:h-96 ">
+    <div className="w-full lg:w-1/2 p-4 group">
+      <div className="bg-gray-50 p-6 rounded-lg md:h-96 group-hover:bg-indigo-800  group-hover:ease-in ease-out duration-300">
         <div className="flex flex-wrap items-center justify-center -mx-4 my-4">
           <div className="w-full md:w-2/5 px-4 lg:mb-0">
             <img
@@ -11,9 +11,15 @@ function TeamCard({ name, position, description, imageSrc, imageAlt }) {
             />
           </div>
           <div className="w-full md:w-3/5 px-4 text-center">
-            <h3 className="text-2xl font-bold font-heading my-1">{name}</h3>
-            <p className="my-2 text-lg text-gray-400">{position}</p>
-            <p className="text-lg text-gray-500 leading-loose">{description}</p>
+            <h3 className="text-2xl font-bold font-heading my-1 group-hover:text-white">
+              {name}
+            </h3>
+            <p className="my-2 text-lg text-gray-400 group-hover:text-indigo-50">
+              {position}
+            </p>
+            <p className="text-lg text-gray-500 leading-loose group-hover:text-indigo-200">
+              {description}
+            </p>
           </div>
         </div>
       </div>
