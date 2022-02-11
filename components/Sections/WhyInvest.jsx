@@ -26,7 +26,7 @@ export default function WhyInvest({
                   <WhyInvestCard
                     label={index + 1}
                     description={description}
-                    key={`${index + 1}-part-1`}
+                    key={`${index + 1}-why-invest-card`}
                   />
                 );
               })}
