@@ -27,6 +27,7 @@ import {
   navigationHrefs,
   cta,
   logoSrc,
+  heroContent,
   stats1Data,
   safeTermsContent,
   whyInvestContent,
@@ -157,6 +158,7 @@ export default function Funded() {
       </Head>
       <div>
         <NavigationHero
+          heroContent={heroContent}
           entityTitle={entityTitle}
           navigationLinks={navigationLinks}
           navigationHrefs={navigationHrefs}

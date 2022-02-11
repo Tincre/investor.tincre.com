@@ -51,6 +51,14 @@ export const newsletterContent = {
   newsletterHref: "https://slightlysharpe.com",
   newsletterName: "Slightly Sharpe",
 };
+export const heroContent = {
+  heading: "We're a different kind of online business.",
+  subHeading:
+    "We build and operate financial performant semi-autonomous brands built on our core ad-fintech pricing, placement, and allocation technology.",
+  cta: "Learn about our raise",
+  ctaHref: "#why-invest",
+  imageSrc: logoSrc,
+};
 export const stats1Data = [
   {
     icon: <UserGroupIcon className={statsIconClassName} />,

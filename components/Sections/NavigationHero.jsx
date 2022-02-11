@@ -3,6 +3,7 @@ import Navbar from "../Navbar";
 import Hero from "../Hero";
 
 export default function NavigationHero({
+  heroContent,
   entityTitle,
   navigationLinks,
   navigationHrefs,
@@ -25,14 +26,7 @@ export default function NavigationHero({
           mobileMenuIsClicked={mobileMenuIsClicked}
           setMobileMenuIsClicked={setMobileMenuIsClicked}
         />
-        <Hero
-          heading="We're a different kind of online business."
-          subHeading="We create value across the web via financially performant semi-autonomous brands centered around core technology."
-          cta="Learn about our raise"
-          ctaHref="#why-invest"
-          imageSrc={logoSrc}
-          session={session}
-        />
+        <Hero {...heroContent} session={session} />
       </div>
       <div className="transition ease-in-out duration-150">
         <MobileNavbar
