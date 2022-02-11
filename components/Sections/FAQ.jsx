@@ -13,11 +13,12 @@ export default function FAQ({ subTitle, title, fAQCardContent }) {
           </h2>
         </div>
         <div className="flex flex-wrap -mx-4 -mb-8">
-          {fAQCardContent?.map(({ title, listItems }, index) => {
+          {fAQCardContent?.map(({ title, listItems, icon }, index) => {
             return (
               <FAQCard
                 title={title}
                 listItems={listItems}
+                icon={icon}
                 key={`${index}-main-faq-card`}
               />
             );
