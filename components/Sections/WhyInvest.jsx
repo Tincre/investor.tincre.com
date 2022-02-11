@@ -11,7 +11,7 @@ export default function WhyInvest({
 }) {
   return (
     <section id="why-invest" className="py-20">
-      <div className="container px-4 mx-auto">
+      <div className="container mx-auto">
         <div className="flex flex-wrap text-center lg:text-left">
           <WhyInvestHero
             subTitle={subTitle}
