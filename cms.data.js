@@ -93,7 +93,7 @@ export const whyInvestContent = {
       <div>
         {" "}
         We have a formula for success that{" "}
-        <a href="#stats">
+        <a className="hover:underline font-bold" href="#stats">
           <span className="italic">works</span>
         </a>
         .
