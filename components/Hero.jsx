@@ -34,9 +34,11 @@ export default function Hero({
           ) : (
             <a
               className="w-full lg:w-1/2 block lg:inline-block px-5 py-3 text-sm text-center font-semibold text-indigo-500 hover:text-white hover:bg-indigo-500 border border-indigo-500 hover:border-indigo-600 rounded transition duration-200"
-              href="#why-invest"
+              href="https://calendly.com/tincre/30min"
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              Invest
+              Book a session
             </a>
           )}
         </div>
