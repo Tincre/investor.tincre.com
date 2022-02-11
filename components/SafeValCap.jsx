@@ -1,11 +1,5 @@
-import MarkdownWrapper from "./MarkdownWrapper";
-import { valuationCapSafe } from "../safe-note-content.js";
+import TincreSafe from "./TincreSafe";
 
 export default function ValCap() {
-  return (
-    <MarkdownWrapper
-      id="safe-valuation-cap-content"
-      content={valuationCapSafe}
-    />
-  );
+  return <TincreSafe />;
 }
