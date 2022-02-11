@@ -25,7 +25,7 @@ export default function FactSnippets({
         />
         <div className="flex flex-wrap items-center justify-around -m-4 text-center">
           {factSnippetsCardContent?.map(
-            ({ description, imageSrc, title, subTitle }, index) => {
+            ({ description, imageSrc, title, subTitle, icon }, index) => {
               return (
                 <div
                   className="group w-full md:w-1/2 lg:w-1/3 p-4"
@@ -39,11 +39,15 @@ export default function FactSnippets({
                       <p className="mb-8 text-base leading-relaxed lg:text-xl lg:leading-relaxed text-gray-500 group-hover:text-indigo-50 transition group-hover:ease-in ease-out duration-700">
                         {description}
                       </p>
-                      <img
-                        className="mb-2 h-12 w-12 object-cover rounded-full mx-auto group-hover:ease-in ease-out duration-300"
-                        src={imageSrc}
-                        alt={`${title} fact snippet heading object`}
-                      />
+                      {!imageSrc ? (
+                        icon
+                      ) : (
+                        <img
+                          className="mb-2 h-12 w-12 object-cover rounded-full mx-auto group-hover:ease-in ease-out duration-300"
+                          src={imageSrc}
+                          alt={`${title} fact snippet heading object`}
+                        />
+                      )}
                       <p className="text-2xl font-bold font-heading group-hover:text-white group-hover:ease-in ease-out duration-300">
                         {title}
                       </p>
