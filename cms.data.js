@@ -21,6 +21,8 @@ const statsIconClassName =
 
 const factSnippetsIconClassName =
   "h-16 w-16 text-center mx-auto mb-4 text-indigo-600 group-hover:text-indigo-300 group-hover:ease-in ease-out duration-300";
+const fAQCardIconClassName =
+  "h-16 w-16 text-center mx-auto mb-6 text-indigo-600 ";
 
 export const hostname = "investor.tincre.com;";
 export const entityTitle = "Tincre";
@@ -183,7 +185,7 @@ export const fAQCardContent = [
       { text: "Our developer platform", href: "https://bitmodulus.com" },
       { text: "Our open-source software", href: "https://github.com/tincre" },
     ],
-    icon: <CreditCardIcon className={factSnippetsIconClassName} />,
+    icon: <CreditCardIcon className={fAQCardIconClassName} />,
   },
   {
     title: "Why are we raising?",
@@ -193,7 +195,7 @@ export const fAQCardContent = [
       { text: "To dogfood a new product", href: "https://example.phund.xyz" },
       { text: "To hire the best people", href: "https://tincre.com/about" },
     ],
-    icon: <SpeakerphoneIcon className={factSnippetsIconClassName} />,
+    icon: <SpeakerphoneIcon className={fAQCardIconClassName} />,
   },
   {
     title: "What are the details?",
@@ -203,7 +205,7 @@ export const fAQCardContent = [
       { text: "Accredited investors", href: "#safe-terms" },
       { text: "No crypto bros here", href: "#safe-terms" },
     ],
-    icon: <InformationCircleIcon className={factSnippetsIconClassName} />,
+    icon: <InformationCircleIcon className={fAQCardIconClassName} />,
   },
   {
     title: "Our caravan includes",
@@ -219,7 +221,7 @@ export const fAQCardContent = [
       },
       { text: "Our high-octane advisors", href: "https://tincre.com/about" },
     ],
-    icon: <HomeIcon className={factSnippetsIconClassName} />,
+    icon: <HomeIcon className={fAQCardIconClassName} />,
   },
   {
     title: "Why participate now?",
@@ -232,7 +234,7 @@ export const fAQCardContent = [
         href: "https://slightlysharpe.com/blog/adaptation-and-retrofitting",
       },
     ],
-    icon: <ClockIcon className={factSnippetsIconClassName} />,
+    icon: <ClockIcon className={fAQCardIconClassName} />,
   },
   {
     title: "What's our goal?",
@@ -250,7 +252,7 @@ export const fAQCardContent = [
         href: "https://slightlysharpe.com/blog/introducing-tincre",
       },
     ],
-    icon: <AcademicCapIcon className={factSnippetsIconClassName} />,
+    icon: <AcademicCapIcon className={fAQCardIconClassName} />,
   },
 ];
 export const footerItems = [
