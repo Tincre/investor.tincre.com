@@ -1,3 +1,27 @@
+import {
+  UserGroupIcon,
+  EmojiHappyIcon,
+  TrendingUpIcon,
+  CurrencyDollarIcon,
+  UsersIcon,
+  CursorClickIcon,
+  CalculatorIcon,
+  LightningBoltIcon,
+  VolumeUpIcon,
+  MusicNoteIcon,
+  CreditCardIcon,
+  SpeakerphoneIcon,
+  InformationCircleIcon,
+  HomeIcon,
+  ClockIcon,
+  AcademicCapIcon,
+} from "@heroicons/react/outline";
+const statsIconClassName =
+  "h-16 w-16 text-center mx-auto mb-4 text-indigo-600 group-hover:text-indigo-500";
+
+const factSnippetsIconClassName =
+  "h-16 w-16 text-center mx-auto mb-4 text-indigo-600 group-hover:text-indigo-300 group-hover:ease-in ease-out duration-300";
+
 export const hostname = "investor.tincre.com;";
 export const entityTitle = "Tincre";
 export const entityUrl = `https://${hostname}`;
@@ -5,6 +29,7 @@ export const title = `${entityTitle} Investor Relations`;
 export const description =
   "We are raising capital. Rather than a boring pitch deck, we built automated and scalable software, turning fundraising into a profit center.";
 export const author = `${entityTitle}, ${entityUrl}`;
+
 export const navigationLinks = [
   `Investing in ${entityTitle}`,
   "Our firm",
@@ -26,22 +51,22 @@ export const newsletterContent = {
 };
 export const stats1Data = [
   {
-    icon: "",
+    icon: <UserGroupIcon className={statsIconClassName} />,
     numberStat: "30,000,000",
     text: "People reached",
   },
   {
-    icon: "",
+    icon: <EmojiHappyIcon className={statsIconClassName} />,
     numberStat: "350",
     text: "Happy customers",
   },
   {
-    icon: "",
+    icon: <TrendingUpIcon className={statsIconClassName} />,
     numberStat: "40%",
     text: "Growth Q3-Q4 ‘21",
   },
   {
-    icon: "",
+    icon: <CurrencyDollarIcon className={statsIconClassName} />,
     numberStat: "$140,000",
     text: "ARR Jan '22",
   },
@@ -90,39 +115,39 @@ export const factCardsContent = [
 export const factSnippetsCardContent = [
   {
     description: "Programmatic ads through the biggest providers.",
-    imageSrc: "/images/indigo-500-avatar.png",
     title: "50M",
     subTitle: "Impressions delivered",
+    icon: <UsersIcon className={factSnippetsIconClassName} />,
   },
   {
     description: "Click-through rates 2X the U.S. average.",
-    imageSrc: "/images/indigo-500-avatar.png",
     title: "2%",
     subTitle: "Avg. click-through rate",
+    icon: <CursorClickIcon className={factSnippetsIconClassName} />,
   },
   {
     description: "Real clicks at a third of the cost.",
-    imageSrc: "/images/indigo-500-avatar.png",
     title: "$0.09",
     subTitle: "Avg. cost-per-click",
+    icon: <CalculatorIcon className={factSnippetsIconClassName} />,
   },
   {
     description: "Simplest and most powerful solution out there.",
-    imageSrc: "/images/indigo-500-avatar.png",
     title: "100",
     subTitle: "Ads with 1 button press",
+    icon: <LightningBoltIcon className={factSnippetsIconClassName} />,
   },
   {
     description: "We make noise across the music industry.",
-    imageSrc: "/images/indigo-500-avatar.png",
     title: "25M+",
     subTitle: "Listeners saw our ads in '21",
+    icon: <VolumeUpIcon className={factSnippetsIconClassName} />,
   },
   {
     description: "Our music brand is used by all major players.",
-    imageSrc: "/images/indigo-500-avatar.png",
     title: "77%",
     subTitle: "M/M growth",
+    icon: <MusicNoteIcon className={factSnippetsIconClassName} />,
   },
 ];
 export const teamCardContent = [
@@ -158,6 +183,7 @@ export const fAQCardContent = [
       { text: "Our developer platform", href: "https://bitmodulus.com" },
       { text: "Our open-source software", href: "https://github.com/tincre" },
     ],
+    icon: <CreditCardIcon className={factSnippetsIconClassName} />,
   },
   {
     title: "Why are we raising?",
@@ -167,6 +193,7 @@ export const fAQCardContent = [
       { text: "To dogfood a new product", href: "https://example.phund.xyz" },
       { text: "To hire the best people", href: "https://tincre.com/about" },
     ],
+    icon: <SpeakerphoneIcon className={factSnippetsIconClassName} />,
   },
   {
     title: "What are the details?",
@@ -176,6 +203,7 @@ export const fAQCardContent = [
       { text: "Accredited investors", href: "#safe-terms" },
       { text: "No crypto bros here", href: "#safe-terms" },
     ],
+    icon: <InformationCircleIcon className={factSnippetsIconClassName} />,
   },
   {
     title: "Our caravan includes",
@@ -191,6 +219,7 @@ export const fAQCardContent = [
       },
       { text: "Our high-octane advisors", href: "https://tincre.com/about" },
     ],
+    icon: <HomeIcon className={factSnippetsIconClassName} />,
   },
   {
     title: "Why participate now?",
@@ -203,6 +232,7 @@ export const fAQCardContent = [
         href: "https://slightlysharpe.com/blog/adaptation-and-retrofitting",
       },
     ],
+    icon: <ClockIcon className={factSnippetsIconClassName} />,
   },
   {
     title: "What's our goal?",
@@ -220,6 +250,7 @@ export const fAQCardContent = [
         href: "https://slightlysharpe.com/blog/introducing-tincre",
       },
     ],
+    icon: <AcademicCapIcon className={factSnippetsIconClassName} />,
   },
 ];
 export const footerItems = [
