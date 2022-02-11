@@ -65,7 +65,7 @@ export const factCardsContent = [
   },
   {
     title: "We convert customers.",
-    description: "Our CAC is top-notch. We spend $5-7 per new  user.",
+    description: "Our CAC is top-notch. We spend $5-7 per new user.",
   },
   {
     title: "Our users spend money.",
@@ -138,7 +138,7 @@ export const teamCardContent = [
     name: "Jason R. Stevens, CFA",
     position: "CTO+CFO, Co-Founder",
     description:
-      "Crushing the keys to build an entirely new automated world in which high-frequency quantitative valuation drives and improves decision making everywhere.",
+      "Building an entirely new automated world where high-frequency quant valuation improves decision making everywhere.",
     imageSrc: "/team/jason.webp",
     imageAlt: "Jason R. Stevens, CFA",
   },
@@ -157,10 +157,6 @@ export const fAQCardContent = [
       { text: "Our ad-fintech brands", href: "https://b00st.com" },
       { text: "Our developer platform", href: "https://bitmodulus.com" },
       { text: "Our open-source software", href: "https://github.com/tincre" },
-      {
-        text: "A link to our financials",
-        href: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0bHXtJKj19YtTvoYZZkVgbL9uHPpm9BJGCQ0VAqj0honwISElEvVArbwgnKPoSeTzz1_1QKQ6i-d0/pubhtml",
-      },
     ],
   },
   {
