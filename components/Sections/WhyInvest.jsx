@@ -19,8 +19,8 @@ export default function WhyInvest({
             description={description}
             cta={cta}
           />
-          <div className="w-full lg:w-1/2 px-4">
-            <div className="flex flex-wrap px-2 py-6 md:px-8 md:py-12 bg-gray-50 rounded-lg items-start">
+          <div className="w-full lg:w-1/2 px-4 group">
+            <div className="flex flex-wrap px-2 py-6 md:px-8 md:py-12 bg-gray-50 rounded-lg items-start group-hover:bg-indigo-800">
               {whyInvestCardData?.map((description, index) => {
                 return (
                   <WhyInvestCard
