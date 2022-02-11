@@ -33,7 +33,7 @@ export default async (req, res) => {
       const pathToAttachment = `${dir}/${filename}`;
       const attachment = fs.readFileSync(pathToAttachment).toString("base64");
       const message =
-        "Hi!\n\nWe're thrilled that you're interested in investing to help us continue our growth. We will reach out shortly.\n\nMeanwhile, please find your requested SAFE note attached.";
+        "Hi!\n\nWe're thrilled that you're interested in investing to help us continue our growth. We will reach out shortly.\n\nMeanwhile, please find your requested SAFE note attached.\n\nIf you'd like to schedule a meeting you may do so at your convenience, here: https://calendly.com/tincre/30min";
       const msg = {
         to: session?.user?.email,
         from: from,
