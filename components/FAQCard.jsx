@@ -26,7 +26,7 @@ export default function FAQCard({ title, listItems, icon }) {
         <h3 className="mx-auto text-center mb-2 text-lg lg:text-2xl font-bold font-heading">
           {title}
         </h3>
-        <ul className="list-inside list-disc leading-loose text-gray-600 py-1 md:pl-0 pl-16">
+        <ul className="list-inside list-disc leading-loose text-gray-600 py-1 md:pl-12 pl-16">
           {listItems?.map(({ text, href }, index) => (
             <li className="text-indigo-500" key={`${index}-faq-card`}>
               <a
