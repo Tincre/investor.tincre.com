@@ -11,14 +11,14 @@ export const defaultSeoContent = {
     site_name: author,
     images: [
       {
-        url: logoSrc,
+        url: "/images/og-images.png",
         width: 800,
         height: 600,
         alt: author,
         type: "image/jpeg",
       },
       {
-        url: logoSrc,
+        url: "/images/og-images.png",
         width: 900,
         height: 800,
         alt: author,
@@ -27,42 +27,41 @@ export const defaultSeoContent = {
     ],
   },
   twitter: {
-    handle: "@handle",
-    site: "@site",
+    handle: "@tincre",
+    site: "@investor.tincre.com",
     cardType: "summary_large_image",
   },
 };
 
 export const routeSeoContent = {
   "/": {
-    title: "Using More of Config",
-    description: "This example uses more of the available config options.",
-    canonical: "https://www.canonical.ie/",
+    title: title,
+    description: description,
     openGraph: {
-      url: "https://www.url.ie/a",
-      title: "Open Graph Title",
-      description: "Open Graph Description",
+      type: "website",
+      locale: "en_IE",
+      url: entityUrl,
+      site_name: author,
       images: [
         {
-          url: logoSrc,
+          url: "/images/og-images.png",
           width: 800,
           height: 600,
           alt: author,
           type: "image/jpeg",
         },
         {
-          url: logoSrc,
+          url: "/images/og-images.png",
           width: 900,
           height: 800,
           alt: author,
           type: "image/jpeg",
         },
       ],
-      site_name: author,
     },
     twitter: {
       handle: "@tincre",
-      site: "@tincre",
+      site: "@investor.tincre.com",
       cardType: "summary_large_image",
     },
   },
