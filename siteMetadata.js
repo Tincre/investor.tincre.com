@@ -11,14 +11,14 @@ export const defaultSeoContent = {
     site_name: author,
     images: [
       {
-        url: "/images/og-images.png",
+        url: "/images/og-images.jpg",
         width: 800,
         height: 600,
         alt: author,
         type: "image/jpeg",
       },
       {
-        url: "/images/og-images.png",
+        url: "/images/og-images.jpg",
         width: 900,
         height: 800,
         alt: author,
