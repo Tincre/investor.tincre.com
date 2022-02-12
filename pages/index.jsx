@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { signIn } from "next-auth/react";
 import { fetcher, clientJwtDecode } from "../lib/utils";
 import { useSession } from "next-auth/react";
 import { routeSeoContent } from "../siteMetadata.js";
