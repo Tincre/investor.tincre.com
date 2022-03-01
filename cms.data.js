@@ -42,8 +42,8 @@ export const stats1Data = [
   },
   {
     icon: "",
-    numberStat: "$140,000",
-    text: "ARR Jan '22",
+    numberStat: "$260,000",
+    text: "ARR Feb '22",
   },
 ];
 export const whyInvestContent = {
