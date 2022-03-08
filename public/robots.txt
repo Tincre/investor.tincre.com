@@ -1,6 +1,10 @@
+# *
 User-agent: *
+Allow: /
+Disallow: /api/*
 
-Disallow: /*
-#Allow: /*
+# Host
+Host: https://investor.tincre.com
 
-#Disallow: /api/*
+# Sitemaps
+Sitemap: https://investor.tincre.com/sitemap.xml
