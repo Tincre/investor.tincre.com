@@ -62,23 +62,23 @@ export const heroContent = {
 export const stats1Data = [
   {
     icon: <UserGroupIcon className={statsIconClassName} />,
-    numberStat: "30,000,000",
+    numberStat: "45,000,000",
     text: "People reached",
   },
   {
     icon: <EmojiHappyIcon className={statsIconClassName} />,
-    numberStat: "350",
+    numberStat: "600",
     text: "Happy customers",
   },
   {
     icon: <TrendingUpIcon className={statsIconClassName} />,
-    numberStat: "40%",
-    text: "Growth Q3-Q4 ‘21",
+    numberStat: "194%",
+    text: "Growth Q1 '22 vs. Q4 ‘21",
   },
   {
     icon: <CurrencyDollarIcon className={statsIconClassName} />,
-    numberStat: "$140,000",
-    text: "ARR Jan '22",
+    numberStat: "$456,000",
+    text: "ARR May '22",
   },
 ];
 export const whyInvestContent = {
@@ -118,12 +118,12 @@ export const factCardsContent = [
   },
   {
     title: "Our users spend money.",
-    description: "At $300, our monthly ARPU rivals major B2B SaaS platforms.",
+    description: "At $320, our monthly ARPU rivals major B2B SaaS platforms.",
   },
   {
     title: "We are building right.",
     description:
-      "Our usage grew by 42% from Q3 to Q4 '21 without upping marketing.",
+      "Our usage grew by 192% from Q4 to Q1 '22 without upping marketing.",
   },
   {
     title: "We keep costs low.",
@@ -139,7 +139,7 @@ export const factCardsContent = [
 export const factSnippetsCardContent = [
   {
     description: "Programmatic ads through the biggest providers.",
-    title: "50M",
+    title: "70M",
     subTitle: "Impressions delivered",
     icon: <UsersIcon className={factSnippetsIconClassName} />,
   },
@@ -169,7 +169,7 @@ export const factSnippetsCardContent = [
   },
   {
     description: "Our music brand is used by all major players.",
-    title: "77%",
+    title: "79%",
     subTitle: "M/M growth",
     icon: <MusicNoteIcon className={factSnippetsIconClassName} />,
   },
