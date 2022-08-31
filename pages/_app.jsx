@@ -5,7 +5,7 @@ import { defaultSeoContent } from "../siteMetadata";
 import { useState } from "react";
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 
-const cookieName = "slightlysharpe.com-cookie-consent";
+const cookieName = "tincre.com-cookie-consent";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const [acceptedCookies, setAcceptedCookies] = useState(
