@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* This modifies the div wrapping the button in CookieConsent to center the button. */
+#__next > div.CookieConsent > div:nth-child(2) {
+  margin: auto auto;
+}
