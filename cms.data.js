@@ -62,23 +62,23 @@ export const heroContent = {
 export const stats1Data = [
   {
     icon: <UserGroupIcon className={statsIconClassName} />,
-    numberStat: "45,000,000",
+    numberStat: "60,000,000",
     text: "People reached",
   },
   {
     icon: <EmojiHappyIcon className={statsIconClassName} />,
-    numberStat: "600",
+    numberStat: "300",
     text: "Happy customers",
   },
   {
     icon: <TrendingUpIcon className={statsIconClassName} />,
-    numberStat: "194%",
-    text: "Growth Q1 '22 vs. Q4 ‘21",
+    numberStat: "5242%",
+    text: "Growth Q2 '21 vs. Q2 ‘22",
   },
   {
     icon: <CurrencyDollarIcon className={statsIconClassName} />,
-    numberStat: "$456,000",
-    text: "ARR May '22",
+    numberStat: "$643,000",
+    text: "ARR Sep '22",
   },
 ];
 export const whyInvestContent = {
@@ -118,7 +118,7 @@ export const factCardsContent = [
   },
   {
     title: "Our users spend money.",
-    description: "At $320, our monthly ARPU rivals major B2B SaaS platforms.",
+    description: "At $550, our monthly ARPU rivals major B2B SaaS platforms.",
   },
   {
     title: "We are building right.",
@@ -133,13 +133,13 @@ export const factCardsContent = [
   {
     title: "Primed for growth.",
     description:
-      "We have five additional brands developed for release in 2022.",
+      "We have five additional brands developed for release in 2023.",
   },
 ];
 export const factSnippetsCardContent = [
   {
     description: "Programmatic ads through the biggest providers.",
-    title: "70M",
+    title: "111M",
     subTitle: "Impressions delivered",
     icon: <UsersIcon className={factSnippetsIconClassName} />,
   },
@@ -169,7 +169,7 @@ export const factSnippetsCardContent = [
   },
   {
     description: "Our music brand is used by all major players.",
-    title: "79%",
+    title: "91%",
     subTitle: "M/M growth",
     icon: <MusicNoteIcon className={factSnippetsIconClassName} />,
   },
@@ -193,7 +193,7 @@ export const teamCardContent = [
   },
   {
     name: "Dan Fratoni",
-    position: "Partner, External Brand Relationships",
+    position: "External Brand Relationships",
     description: "Drives entertainment industry representation for the firm.",
     imageSrc: "/team/dan.webp",
     imageAlt: "Dan Fratoni",
@@ -204,7 +204,7 @@ export const fAQCardContent = [
     title: "How do we make money?",
     listItems: [
       { text: "Our ad-fintech brands", href: "https://b00st.com" },
-      { text: "Our developer platform", href: "https://bitmodulus.com" },
+      { text: "Our developer platform", href: "https://tincre.dev" },
       { text: "Our open-source software", href: "https://github.com/tincre" },
     ],
     icon: <CreditCardIcon className={fAQCardIconClassName} />,
@@ -213,7 +213,7 @@ export const fAQCardContent = [
     title: "Why are we raising?",
     listItems: [
       { text: "To release more brands", href: "https://tincre.com" },
-      { text: "To market the new stuff", href: "https://tearsheetads.com" },
+      { text: "To market the new stuff", href: "https://blog.b00st.com/blog/coming-upgrades-for-better-online-ads" },
       { text: "To dogfood a new product", href: "https://example.phund.xyz" },
       { text: "To hire the best people", href: "https://tincre.com/about" },
     ],
@@ -222,8 +222,8 @@ export const fAQCardContent = [
   {
     title: "What are the details?",
     listItems: [
-      { text: "Pre-seed up to $1.25M", href: "#safe-terms" },
-      { text: "SAFE note, min $50K", href: "#safe-terms" },
+      { text: "Pre-seed up to $1M", href: "#safe-terms" },
+      { text: "SAFE note, min $25K", href: "#safe-terms" },
       { text: "Accredited investors", href: "#safe-terms" },
       { text: "No crypto bros here", href: "#safe-terms" },
     ],
@@ -248,9 +248,9 @@ export const fAQCardContent = [
   {
     title: "Why participate now?",
     listItems: [
-      { text: "You understand software", href: "https://bitmodulus.com" },
+      { text: "You understand software", href: "https://tincre.dev" },
       { text: "You like to get in early", href: "https://tincre.com/" },
-      { text: "Complex problems excite you", href: "https://tincre.com" },
+      { text: "Complex problems excite you", href: "https://tincre.dev/promo" },
       {
         text: "Products and processes matter",
         href: "https://slightlysharpe.com/blog/adaptation-and-retrofitting",
@@ -324,20 +324,20 @@ export const footerItems = [
     title: "Brands",
     footerColumnItems: [
       {
-        text: `b00st.com`,
-        href: "https://b00st.com",
+        text: `Promo`,
+        href: "https://tincre.dev/promo",
       },
       {
         text: `Slightly Sharpe`,
         href: "https://slightlysharpe.com",
       },
       {
-        text: "Tear Sheet Ads (coming)",
-        href: "https://tearsheetads.com",
+        text: "b00st.com",
+        href: "https://b00st.com",
       },
       {
-        text: "Bit Modulus",
-        href: "https://bitmodulus.com",
+        text: "Tincre.dev",
+        href: "https://tincre.dev",
       },
     ],
   },
@@ -349,12 +349,12 @@ export const footerItems = [
         href: "https://github.com/tincre",
       },
       {
-        text: `Phund OSS`,
-        href: "https://github.com/tincre/phund",
+        text: `Developer Platform`,
+        href: "https://tincre.dev",
       },
       {
-        text: `Pycmc`,
-        href: "https://github.com/musicfox/pycmc",
+        text: `Open Source`,
+        href: "https://github.com/tincre",
       },
       {
         text: `And more!`,
