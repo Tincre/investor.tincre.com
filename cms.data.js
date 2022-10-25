@@ -67,18 +67,18 @@ export const stats1Data = [
   },
   {
     icon: <EmojiHappyIcon className={statsIconClassName} />,
-    numberStat: "300",
-    text: "Happy customers",
+    numberStat: "1000+",
+    text: "Ad campaigns",
   },
   {
     icon: <TrendingUpIcon className={statsIconClassName} />,
-    numberStat: "5242%",
-    text: "Growth Q2 '21 vs. Q2 ‘22",
+    numberStat: "313%",
+    text: "Growth Q3 '22 vs. Q3 ‘21",
   },
   {
     icon: <CurrencyDollarIcon className={statsIconClassName} />,
     numberStat: "$1M+",
-    text: "ARR Oct '22",
+    text: "Annualized revenue Oct '22",
   },
 ];
 export const whyInvestContent = {
@@ -118,10 +118,10 @@ export const factCardsContent = [
   },
   {
     title: "Our users spend money.",
-    description: "At $550, our monthly ARPU rivals major B2B SaaS platforms.",
+    description: "At $1000+ our monthly ARPU rivals major B2B SaaS platforms.",
   },
   {
-    title: "We are building right.",
+    title: "We are intensely building.",
     description:
       "Our usage grew by 192% from Q4 to Q1 '22 without upping marketing.",
   },
@@ -131,7 +131,7 @@ export const factCardsContent = [
       "Our net profit margin is north of 10% and our tech is scalable.",
   },
   {
-    title: "Primed for growth.",
+    title: "Hyper-leveraged for growth.",
     description:
       "We have five additional brands developed for release in 2023.",
   },
@@ -163,14 +163,14 @@ export const factSnippetsCardContent = [
   },
   {
     description: "We make noise across the music industry.",
-    title: "25M+",
-    subTitle: "Listeners saw our ads in '21",
+    title: "60M+",
+    subTitle: "Listeners saw our ads in '22",
     icon: <VolumeUpIcon className={factSnippetsIconClassName} />,
   },
   {
     description: "Our music brand is used by all major players.",
-    title: "91%",
-    subTitle: "M/M growth",
+    title: "20%+",
+    subTitle: "M/M growth for 2022",
     icon: <MusicNoteIcon className={factSnippetsIconClassName} />,
   },
 ];
@@ -190,13 +190,6 @@ export const teamCardContent = [
       "Building an entirely new automated world where high-frequency quant valuation improves decision making everywhere.",
     imageSrc: "/team/jason.webp",
     imageAlt: "Jason R. Stevens, CFA",
-  },
-  {
-    name: "Dan Fratoni",
-    position: "External Brand Relationships",
-    description: "Drives entertainment industry representation for the firm.",
-    imageSrc: "/team/dan.webp",
-    imageAlt: "Dan Fratoni",
   },
 ];
 export const fAQCardContent = [
