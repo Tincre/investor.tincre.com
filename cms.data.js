@@ -29,7 +29,7 @@ export const entityTitle = "Tincre";
 export const entityUrl = `https://${hostname}`;
 export const title = `${entityTitle} Investor Relations`;
 export const description =
-  "We are raising capital. Rather than a boring pitch deck, we built automated and scalable software, turning fundraising into a profit center.";
+  "Tincre makes highways for the modern web. Join in its latest round to be part of a rapidly growing, profitable, and kick-ass ad-fintech software company. Ready? 🚀"
 export const author = `${entityTitle}, ${entityUrl}`;
 
 export const navigationLinks = [
@@ -52,9 +52,9 @@ export const newsletterContent = {
   newsletterName: "Slightly Sharpe",
 };
 export const heroContent = {
-  heading: "We're a different kind of online business.",
+  heading: "We make highways for the modern web.",
   subHeading:
-    "We build and operate financial performant semi-autonomous brands built on our core ad-fintech pricing, placement, and allocation technology.",
+    "We build financially performant semi-autonomous SaaS brands that dogfood our developer platform Tincre.dev.",
   cta: "Learn about our raise",
   ctaHref: "#why-invest",
   imageSrc: logoSrc,
@@ -67,18 +67,18 @@ export const stats1Data = [
   },
   {
     icon: <EmojiHappyIcon className={statsIconClassName} />,
-    numberStat: "300",
-    text: "Happy customers",
+    numberStat: "1000+",
+    text: "Ad campaigns",
   },
   {
     icon: <TrendingUpIcon className={statsIconClassName} />,
-    numberStat: "5242%",
-    text: "Growth Q2 '21 vs. Q2 ‘22",
+    numberStat: "313%",
+    text: "Growth Q3 '22 vs. Q3 ‘21",
   },
   {
     icon: <CurrencyDollarIcon className={statsIconClassName} />,
-    numberStat: "$643,000",
-    text: "ARR Sep '22",
+    numberStat: "$1M+",
+    text: "Annualized revenue Oct '22",
   },
 ];
 export const whyInvestContent = {
@@ -118,10 +118,10 @@ export const factCardsContent = [
   },
   {
     title: "Our users spend money.",
-    description: "At $550, our monthly ARPU rivals major B2B SaaS platforms.",
+    description: "At $1000+ our monthly ARPU rivals major B2B SaaS platforms.",
   },
   {
-    title: "We are building right.",
+    title: "We are intensely building.",
     description:
       "Our usage grew by 192% from Q4 to Q1 '22 without upping marketing.",
   },
@@ -131,7 +131,7 @@ export const factCardsContent = [
       "Our net profit margin is north of 10% and our tech is scalable.",
   },
   {
-    title: "Primed for growth.",
+    title: "Hyper-leveraged for growth.",
     description:
       "We have five additional brands developed for release in 2023.",
   },
@@ -163,14 +163,14 @@ export const factSnippetsCardContent = [
   },
   {
     description: "We make noise across the music industry.",
-    title: "25M+",
-    subTitle: "Listeners saw our ads in '21",
+    title: "60M+",
+    subTitle: "Listeners saw our ads in '22",
     icon: <VolumeUpIcon className={factSnippetsIconClassName} />,
   },
   {
     description: "Our music brand is used by all major players.",
-    title: "91%",
-    subTitle: "M/M growth",
+    title: "20%+",
+    subTitle: "M/M growth for 2022",
     icon: <MusicNoteIcon className={factSnippetsIconClassName} />,
   },
 ];
@@ -190,13 +190,6 @@ export const teamCardContent = [
       "Building an entirely new automated world where high-frequency quant valuation improves decision making everywhere.",
     imageSrc: "/team/jason.webp",
     imageAlt: "Jason R. Stevens, CFA",
-  },
-  {
-    name: "Dan Fratoni",
-    position: "External Brand Relationships",
-    description: "Drives entertainment industry representation for the firm.",
-    imageSrc: "/team/dan.webp",
-    imageAlt: "Dan Fratoni",
   },
 ];
 export const fAQCardContent = [
@@ -386,10 +379,10 @@ export const factSnippetsContent = {
   cta1Href: "#safe-terms",
 };
 export const teamContent = {
-  title: "Superior people build superior businesses",
-  subTitle: "Better People",
+  title: "The best teams build the best businesses",
+  subTitle: "A better team",
   description:
-    "Change the pace and stop wasting your resources. Invest in the actual top of the class, a management team with a proven track record and an eye on the bottom line.",
+    "Change the pace and stop wasting your resources. Invest in the actual top of the class, a management team with a proven operating track record pounding the scale button.",
 };
 export const infoBlockContent = {
   title: "One investment to rule them all.",
