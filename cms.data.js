@@ -77,8 +77,8 @@ export const stats1Data = [
   },
   {
     icon: <CurrencyDollarIcon className={statsIconClassName} />,
-    numberStat: "$643,000",
-    text: "ARR Sep '22",
+    numberStat: "$1M+",
+    text: "ARR Oct '22",
   },
 ];
 export const whyInvestContent = {
