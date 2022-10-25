@@ -29,7 +29,7 @@ export const entityTitle = "Tincre";
 export const entityUrl = `https://${hostname}`;
 export const title = `${entityTitle} Investor Relations`;
 export const description =
-  "We are raising capital. Rather than a boring pitch deck, we built automated and scalable software, turning fundraising into a profit center.";
+  "Tincre makes highways for the modern web. Join in its latest round to be part of a rapidly growing, profitable, and kick-ass ad-fintech software company. Ready? 🚀"
 export const author = `${entityTitle}, ${entityUrl}`;
 
 export const navigationLinks = [
@@ -52,9 +52,9 @@ export const newsletterContent = {
   newsletterName: "Slightly Sharpe",
 };
 export const heroContent = {
-  heading: "We're a different kind of online business.",
+  heading: "We make highways for the modern web.",
   subHeading:
-    "We build and operate financial performant semi-autonomous brands built on our core ad-fintech pricing, placement, and allocation technology.",
+    "We build financially performant semi-autonomous SaaS brands that dogfood our developer platform Tincre.dev.",
   cta: "Learn about our raise",
   ctaHref: "#why-invest",
   imageSrc: logoSrc,
@@ -379,10 +379,10 @@ export const factSnippetsContent = {
   cta1Href: "#safe-terms",
 };
 export const teamContent = {
-  title: "Superior people build superior businesses",
-  subTitle: "Better People",
+  title: "The best teams build the best businesses",
+  subTitle: "A better team",
   description:
-    "Change the pace and stop wasting your resources. Invest in the actual top of the class, a management team with a proven track record and an eye on the bottom line.",
+    "Change the pace and stop wasting your resources. Invest in the actual top of the class, a management team with a proven operating track record pounding the scale button.",
 };
 export const infoBlockContent = {
   title: "One investment to rule them all.",
