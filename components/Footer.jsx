@@ -38,7 +38,7 @@ export default function Footer({
               <Logo logoSrc={logoSrc} entityTitle={entityTitle} />
             </a>
             <p className="hidden lg:block mt-3 text-sm text-gray-500">
-              {`All rights reserved. © ${entityTitle} 2022`}
+              {`All rights reserved. © ${entityTitle} 2023`}
             </p>
           </div>
           <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
