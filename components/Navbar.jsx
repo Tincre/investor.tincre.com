@@ -50,21 +50,6 @@ export default function Navbar({
           }
         })}
       </ul>
-      {!session ? (
-        <button
-          className="hidden lg:block px-5 py-3 text-sm font-semibold text-indigo-500 hover:text-white hover:bg-indigo-500 border border-indigo-500 hover:border-indigo-600 rounded transition duration-200"
-          onClick={() => signIn()}
-        >
-          Log in
-        </button>
-      ) : (
-        <button
-          className="hidden lg:block px-5 py-3 text-sm font-semibold text-indigo-500 hover:text-white hover:bg-indigo-500 border border-indigo-500 hover:border-indigo-600 rounded transition duration-200"
-          onClick={() => signOut()}
-        >
-          Log out
-        </button>
-      )}
     </nav>
   );
 }

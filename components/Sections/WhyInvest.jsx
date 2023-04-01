@@ -10,7 +10,7 @@ export default function WhyInvest({
   session,
 }) {
   return (
-    <section id="why-invest" className="py-20">
+    <section id="why-promo" className="py-20">
       <div className="container mx-auto">
         <div className="flex flex-wrap text-center lg:text-left">
           <WhyInvestHero

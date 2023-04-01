@@ -19,28 +19,11 @@ export default function Hero({
         </p>
         <div>
           <a
-            className="w-full lg:w-2/5 block lg:inline-block px-5 py-3 lg:mr-3 mb-3 lg:mb-0 text-sm text-center bg-indigo-500 hover:bg-indigo-600 text-white font-semibold border border-indigo-500 hover:border-indigo-600 rounded transition duration-200"
+            className="w-full md:w-4/5 block lg:inline-block px-5 py-3 lg:mr-3 mb-3 lg:mb-0 text-sm text-center bg-indigo-500 hover:bg-indigo-600 text-white font-semibold border border-indigo-500 hover:border-indigo-600 rounded transition duration-200"
             href={ctaHref}
           >
             {cta}
           </a>
-          {!session ? (
-            <button
-              className="w-full lg:w-2/5 block lg:inline-block px-5 py-3 text-sm text-center font-semibold text-indigo-500 hover:text-white hover:bg-indigo-500 border border-indigo-500 hover:border-indigo-600 rounded transition duration-200"
-              onClick={() => signIn()}
-            >
-              Log in
-            </button>
-          ) : (
-            <a
-              className="w-full lg:w-1/2 block lg:inline-block px-5 py-3 text-sm text-center font-semibold text-indigo-500 hover:text-white hover:bg-indigo-500 border border-indigo-500 hover:border-indigo-600 rounded transition duration-200"
-              href="https://calendly.com/tincre/30min"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Book a session
-            </a>
-          )}
         </div>
       </div>
       <div className="w-full md:w-1/2 px-4">
@@ -51,7 +34,7 @@ export default function Hero({
         />
       </div>
       <a
-        href="#why-invest"
+        href="#why-promo"
         className="animate-pulse block mt-8 lg:mt-12 mx-auto w-16 h-16 p-5 rounded-full bg-indigo-50 hover:bg-indigo-100"
       >
         <svg

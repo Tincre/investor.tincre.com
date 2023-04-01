@@ -84,33 +84,14 @@ export default function MobileNavbar({
               <div className="pt-6">
                 <a
                   className="block px-5 py-3 text-sm text-center font-semibold text-white bg-indigo-500 hover:bg-indigo-600 border border-indigo-500 hover:border-indigo-600 rounded transition duration-200"
-                  href="#safe-terms"
+                  href="#why-promo"
                   onClick={() => setMobileMenuIsClicked(!mobileMenuIsClicked)}
                 >
-                  {cta}
+                  Why Promo?
                 </a>
-                {!session ? (
-                  <button
-                    className="block w-full lg:hidden mt-1 px-5 py-3 text-sm font-semibold text-indigo-500 hover:text-white hover:bg-indigo-500 border border-indigo-500 hover:border-indigo-600 rounded transition duration-200"
-                    onClick={() =>
-                      signIn() && setMobileMenuIsClicked(!mobileMenuIsClicked)
-                    }
-                  >
-                    Log in
-                  </button>
-                ) : (
-                  <button
-                    className="block w-full lg:hidden mt-1 px-5 py-3 text-sm font-semibold text-indigo-500 hover:text-white hover:bg-indigo-500 border border-indigo-500 hover:border-indigo-600 rounded transition duration-200"
-                    onClick={() =>
-                      signOut() && setMobileMenuIsClicked(!mobileMenuIsClicked)
-                    }
-                  >
-                    Log out
-                  </button>
-                )}
               </div>
               <p className="mt-6 mb-4 text-sm text-center text-gray-500">
-                <span>{`© ${entityTitle} 2022 All rights reserved.`}</span>
+                <span>{`© ${entityTitle} 2023 All rights reserved.`}</span>
               </p>
             </div>
           </nav>
