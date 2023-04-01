@@ -30,7 +30,8 @@ export const entityTitle = "Tincre";
 export const entityUrl = `https://${hostname}`;
 export const title = `${entityTitle} Investor Relations`;
 export const description =
-  "Tincre makes highways for the modern web. Join in its latest round to be part of a rapidly growing, profitable, and kick-ass ad-fintech software company. Ready? 🚀";
+  "Tincre builds highways for the modern web. Partner to integrate Promo, our kick-ass turn-key ad agency for your business, app or site. Ready? 🚀";
+
 export const author = `${entityTitle}, ${entityUrl}`;
 
 export const navigationLinks = [
