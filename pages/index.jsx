@@ -15,7 +15,7 @@ import FactSnippets from "../components/Sections/FactSnippets";
 import InfoBlock from "../components/Sections/InfoBlock";
 import Team from "../components/Sections/Team";
 import FAQ from "../components/Sections/FAQ";
-import SafeTerms from "../components/Sections/SafeTerms";
+import LearnMore from "../components/Sections/LearnMore";
 import {
   entityTitle,
   title,
@@ -169,7 +169,7 @@ export default function Funded() {
         />
         <Stats data={stats1Data} />
         <WhyInvest {...whyInvestContent} session={session} />
-        <SafeTerms {...safeTermsContent} session={session} />
+        <LearnMore />
         {!session ? null : (
           <>
             <FactCards factCardsContent={factCardsContent} />
