@@ -1,6 +1,6 @@
 {
   "name": "investor.tincre.com",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "The funding site for Tincre, tincre.com",
   "repository": "https://github.com/tincre/investor.tincre.com",
   "scripts": {
