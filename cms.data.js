@@ -16,6 +16,7 @@ import {
   ClockIcon,
   AcademicCapIcon,
 } from "@heroicons/react/outline";
+import PromoContactUs from "./components/PromoContactUs";
 const statsIconClassName =
   "h-16 w-16 text-center mx-auto mb-4 text-indigo-600 group-hover:text-indigo-500";
 
@@ -29,16 +30,16 @@ export const entityTitle = "Tincre";
 export const entityUrl = `https://${hostname}`;
 export const title = `${entityTitle} Investor Relations`;
 export const description =
-  "Tincre makes highways for the modern web. Join in its latest round to be part of a rapidly growing, profitable, and kick-ass ad-fintech software company. Ready? 🚀"
+  "Tincre makes highways for the modern web. Join in its latest round to be part of a rapidly growing, profitable, and kick-ass ad-fintech software company. Ready? 🚀";
 export const author = `${entityTitle}, ${entityUrl}`;
 
 export const navigationLinks = [
-  `Investing in ${entityTitle}`,
+  `Tincre Promo`,
   "Our firm",
   "The Team",
 ];
 export const navigationHrefs = [
-  "#why-invest",
+  "#why-promo",
   "https://tincre.com",
   "https://tincre.com/about",
 ];
@@ -54,57 +55,50 @@ export const newsletterContent = {
 export const heroContent = {
   heading: "We make highways for the modern web.",
   subHeading:
-    "We build financially performant semi-autonomous SaaS brands that dogfood our developer platform Tincre.dev.",
-  cta: "Learn about our raise",
-  ctaHref: "#why-invest",
+    `Our SaaS white-label powers our ad brands and those of the largest companies in the world.`,
+  cta: "Learn about Tincre Promo",
+  ctaHref: "https://tincre.com",
   imageSrc: logoSrc,
 };
 export const stats1Data = [
   {
     icon: <UserGroupIcon className={statsIconClassName} />,
-    numberStat: "60,000,000",
+    numberStat: "120,000,000",
     text: "People reached",
   },
   {
     icon: <EmojiHappyIcon className={statsIconClassName} />,
-    numberStat: "1000+",
+    numberStat: "1500+",
     text: "Ad campaigns",
   },
   {
     icon: <TrendingUpIcon className={statsIconClassName} />,
-    numberStat: "313%",
-    text: "Growth Q3 '22 vs. Q3 ‘21",
+    numberStat: "350%",
+    text: "Growth Q1 '23 vs. Q1 ‘22",
   },
   {
     icon: <CurrencyDollarIcon className={statsIconClassName} />,
     numberStat: "$1M+",
-    text: "Annualized revenue Oct '22",
+    text: "Annualized revenue March '23",
   },
 ];
 export const whyInvestContent = {
   subTitle: "Scaling our formula",
-  title: "We're seeking investment to release more kick-ass brands",
+  title: "We're seeking partnerships to release more kick-ass brands",
   description: (
     <>
       <div className="mb-4">
         Our autonomous ad-fintech brands supercharge businesses and creators by
         quantifying and monetizing interactions across the web.
       </div>
-      <div>
-        {" "}
-        We have a formula for success that{" "}
-        <a className="hover:underline font-bold" href="#stats">
-          <span className="italic">works</span>
-        </a>
-        .
-      </div>
+      <PromoContactUs />
     </>
   ),
   cta: `Learn about investing in ${entityTitle}`,
   whyInvestCardData: [
-    "Scale our efficient user acquisition cost of $5-7 across other industries.",
-    "Solid business fundamentals guided by founders' zero bullshit approach.",
-    "Take part in something vastly more exciting than burning your cash.",
+    "Scale your business via our turn-key ad platform.",
+    "Grow revenue via usage fee splits.",
+    "Enhance product offerings for your customers, users and clients.",
   ],
 };
 export const factCardsContent = [
@@ -206,7 +200,10 @@ export const fAQCardContent = [
     title: "Why are we raising?",
     listItems: [
       { text: "To release more brands", href: "https://tincre.com" },
-      { text: "To market the new stuff", href: "https://blog.b00st.com/blog/coming-upgrades-for-better-online-ads" },
+      {
+        text: "To market the new stuff",
+        href: "https://blog.b00st.com/blog/coming-upgrades-for-better-online-ads",
+      },
       { text: "To dogfood a new product", href: "https://example.phund.xyz" },
       { text: "To hire the best people", href: "https://tincre.com/about" },
     ],
