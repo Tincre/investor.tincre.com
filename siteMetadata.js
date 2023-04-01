@@ -11,14 +11,14 @@ export const defaultSeoContent = {
     site_name: author,
     images: [
       {
-        url: "/images/og-images.jpg",
+        url: "/images/og-image-investor.webp",
         width: 800,
         height: 600,
         alt: author,
         type: "image/jpeg",
       },
       {
-        url: "/images/og-images.jpg",
+        url: "/images/og-image-investor.webp",
         width: 900,
         height: 800,
         alt: author,
@@ -44,14 +44,14 @@ export const routeSeoContent = {
       site_name: author,
       images: [
         {
-          url: "/images/og-images.png",
+          url: "/images/og-image-investor.webp",
           width: 800,
           height: 600,
           alt: author,
           type: "image/jpeg",
         },
         {
-          url: "/images/og-images.png",
+          url: "/images/og-image-investor.webp",
           width: 900,
           height: 800,
           alt: author,
